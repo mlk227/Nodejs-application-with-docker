@@ -4,7 +4,7 @@ RUN apk add --no-cache nodejs npm
 
 WORKDIR /app
 
-# copying files 
+# copying files into the app dir
 COPY . /app
 
 
